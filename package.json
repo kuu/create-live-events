@@ -1,0 +1,44 @@
+{
+  "name": "ooyala-live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "event": "node ./event/index.js",
+    "schedule": "node ./schedule/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuu/ooyala-live.git"
+  },
+  "keywords": [
+    "OOYALA",
+    "Live"
+  ],
+  "author": "Kuu Miyazaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuu/ooyala-live/issues"
+  },
+  "homepage": "https://github.com/kuu/ooyala-live#readme",
+  "dependencies": {
+    "config": "^1.28.1",
+    "minimist": "^1.2.0",
+    "ooyala-api": "^0.13.2"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "camelcase": 0,
+      "capitalized-comments": 0,
+      "new-cap": 0,
+      "no-await-in-loop": 0,
+      "no-return-assign": 0,
+      "import/no-dynamic-require": 0
+    }
+  }
+}
